@@ -7,6 +7,9 @@
 # Load Brew
 eval $(/opt/homebrew/bin/brew shellenv)
 
+# Load Cargo/Rust
+. "$HOME/.cargo/env"
+
 # Load Starship
 eval "$(starship init zsh)"
 
