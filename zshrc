@@ -30,9 +30,6 @@ function update_terminalapp_cwd() {
 #                                                                              #
 ################################################################################
 
-# Load colors support
-autoload -U colors && colors
-
 # Notify Terminal.app of the cwd
 precmd_functions+=(update_terminalapp_cwd)
 update_terminalapp_cwd
