@@ -34,6 +34,9 @@ function update_terminalapp_cwd() {
 precmd_functions+=(update_terminalapp_cwd)
 update_terminalapp_cwd
 
+# Load Brew
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # Load Starship
 eval "$(starship init zsh)"
 
