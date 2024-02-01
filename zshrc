@@ -41,5 +41,6 @@ source ~/.profile
 ################################################################################
 
 alias cat='bat --paging=never --style=plain --theme=ansi'
+alias jq='jaq'
 alias less='bat --paging=always --style=plain --theme=ansi'
 alias ls='eza'
